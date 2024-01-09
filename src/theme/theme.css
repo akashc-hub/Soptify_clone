@@ -1,0 +1,43 @@
+/* themes.css */
+
+:root {
+    --bg: #1C1C27;
+    --bgLight: #1C1E27;
+    --primary: #854CE6;
+    --textPrimary: #F2F3F4;
+    --secondary: #854CE6;
+    --textSecondary: #b1b2b3;
+    --card: #171721;
+    --cardLight: #191924;
+    --button: #854CE6;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    --background: var(--bg);
+    --background-light: var(--bgLight);
+    --main-primary: var(--primary);
+    --text-primary: var(--textPrimary);
+    --main-secondary: var(--secondary);
+    --text-secondary: var(--textSecondary);
+    --card-bg: var(--card);
+    --card-light: var(--cardLight);
+    --button-color: var(--button);
+    --font-color: var(--white);
+  }
+  
+  /* Light Theme */
+  .light-theme {
+    --background: var(--bg);
+    --background-light: var(--bgLight);
+    --main-primary: var(--primary);
+    --text-primary: var(--textPrimary);
+    --main-secondary: var(--secondary);
+    --text-secondary: var(--textSecondary);
+    --card-bg: var(--card);
+    --button-color: var(--button);
+    --font-color: var(--black);
+  }
+  
